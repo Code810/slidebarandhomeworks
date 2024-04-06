@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.clock{
+    position: relative;
+    width: 900px;
+    height: 900px;
+    background-image: url(../img/c1e55bedf5f1c5a628e1ac97a9eaf126.png);
+    background-repeat: no-repeat;
+}
+.clock img{
+width: 90%;
+}
+.circle{
+    position: absolute;
+    top: 35%;
+    left: 44%;
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    z-index: 1111;
+}
+.hours{
+    width: 19px;
+    height: 150px;
+    background-color: black;
+    position: absolute;
+    top: 40px;
+    left: 407px;
+    top: 191px;
+    transform-origin: bottom;
+  
+}
+.minutes{
+    width: 18px;
+    height: 160px;
+    background-color: black;
+    position: absolute;
+    top: 29px;
+    left: 407px;
+    top: 175px;
+    transform-origin: bottom;
+}
+.seconds{
+    width: 13px;
+    height: 200px;
+    background-color: rgb(253, 9, 9);
+    position: absolute;
+    left: 50%;
+    transform-origin: bottom;
+    left: 411px;
+    top: 135px;
+}
+.electronclock{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 39%;
+    left: 38%;
+    text-align: center;
+    padding-top: 10px;
+    background-color: #c9c9c9;
+}
+.electronclock h2{
+    color: #7c7a7a;
+}
+.date{
+    width: 40px;
+    height: 30px;
+    border: 1px solid black;
+    position: absolute;
+}
